@@ -1,3 +1,12 @@
 .bodyContent {
     margin-top: 20px;
+    .cardWrapper {
+        .card {
+            img {
+                height: 200px;
+                width: 200px;
+                margin: 20px 0 0 20px;
+            }
+        }
+    }
 }
