@@ -4,7 +4,7 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">BrandName</a>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -12,57 +12,85 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li ngbDropdown class="nav-item">
-          <a class="nav-link dropdown-toggle" 
-              id="dropdownBasic1"
-              ngbDropdownToggle
-              href="#"
-              data-toggle="dropdown">Link</a>
+          <a class="nav-link dropdown-toggle" id="dropdownBasic1" ngbDropdownToggle href="#" data-toggle="dropdown">Link</a>
           <div class="dropdown-menu"  aria-labelledby="dropdownBasic1">
             <button class="dropdown-item">Action - 1</button>
-            <button class="dropdown-item">Another Action</button>
-            <button class="dropdown-item">Something else is here</button>
-          </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-  </div>
+              <button class="dropdown-item">Another Action</button>
+                <button class="dropdown-item">Something else is here</button>
+    </div>
+    </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</div>
 </nav>
 <div class="bodyContent container">
   <div class="row cardWrapper">
     <div class="col-sm-4">
-      <div class="card">
-        <img class="card-img-top" src="../assets/dummy.jpeg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <md-card class="example-card">
+        <md-card-header>
+          <div md-card-avatar class="example-header-image">
+            
+          </div>
+          <md-card-title>Shiba Inu</md-card-title>
+          <md-card-subtitle>Dog Breed</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+          <img src="../assets/dummy.jpeg">
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
+            very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+          </p>
+        </md-card-content>
+        <md-card-actions>
+          <button md-button>LIKE</button>
+          <button md-button>SHARE</button>
+        </md-card-actions>
+      </md-card>
     </div>
     <div class="col-sm-4">
-      <div class="card">
-        <img class="card-img-top" src="../assets/dummy2.jpeg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <md-card class="example-card">
+        <md-card-header>
+          <div md-card-avatar class="example-header-image"></div>
+          <md-card-title>Shiba Inu</md-card-title>
+          <md-card-subtitle>Dog Breed</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+          <img src="../assets/dummy2.jpeg">
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
+            very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+          </p>
+        </md-card-content>
+        <md-card-actions>
+          <button md-button>LIKE</button>
+          <button md-button>SHARE</button>
+        </md-card-actions>
+      </md-card>
     </div>
     <div class="col-sm-4">
-      <div class="card">
-        <img class="card-img-top" src="../assets/dummy3.jpeg" alt="Card image cap">
-        <div class="card-block">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
+      <md-card class="example-card">
+        <md-card-header>
+          <div md-card-avatar class="example-header-image"></div>
+          <md-card-title>Shiba Inu</md-card-title>
+          <md-card-subtitle>Dog Breed</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+          <img src="../assets/dummy3.jpeg">
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes
+            very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+          </p>
+        </md-card-content>
+        <md-card-actions>
+          <button md-button>LIKE</button>
+          <button md-button>SHARE</button>
+        </md-card-actions>
+      </md-card>
     </div>
-</div>
+  </div>
 </div>
 
 
